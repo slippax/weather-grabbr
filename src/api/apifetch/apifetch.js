@@ -46,6 +46,7 @@ function ApiFetch() {
   useEffect(() => {
     if (city && country !== "") {
       setUrl(
+        //hi
         `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=220b8775efd1ba31288e8e381b672250`
       );
     }
