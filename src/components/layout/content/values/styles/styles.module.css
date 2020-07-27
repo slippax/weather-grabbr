@@ -1,0 +1,40 @@
+.city {
+    padding-right: 5px;
+}
+
+
+.country {
+    padding-right: 5px;
+}
+
+.button{
+    height: 56px;
+}
+
+.box {
+    border: 1px solid gray;
+    width: 130px;
+    height: 130px;
+    border-radius: 20px;
+    font-size: 14px;
+    box-shadow: 0 8px 6px -9px black;
+}
+
+.boxwrapper {
+    padding: 5px;
+    
+}
+
+.icon {
+    padding-top: 8px;
+}
+
+.text {
+margin-bottom: 5px;
+margin-top: 6px;
+
+}
+
+.value {
+    
+}

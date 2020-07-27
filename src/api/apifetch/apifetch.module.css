@@ -1,0 +1,14 @@
+.contentWrapper {
+  text-align: center;
+}
+
+.temps {
+  display: flex;
+  padding: 5px;
+}
+
+.valueWrapper {
+    padding-top: 15px;
+  margin: 0 auto;
+  display: table;
+}

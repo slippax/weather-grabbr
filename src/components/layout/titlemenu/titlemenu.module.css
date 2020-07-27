@@ -1,0 +1,26 @@
+.text {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 40px;
+  font-weight: 300;
+  width: 100%;
+  color: darkslateblue;
+  margin-bottom: 10px;
+}
+
+.border {
+    width:60%;
+    border-bottom: 1px solid gray;
+    margin-left: 20%;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+}
+
+.instruction {
+  text-align: center;
+  padding-bottom: 5px;
+  width: 100%;
+}
