@@ -4,9 +4,9 @@ import GpsFixedIcon from '@material-ui/icons/GpsFixed';
 import classes from './styles/styles.module.css'
 const button = (props) => {
   return (
-    <span className={classes.locationButton}>
+    <div className={classes.locationButton}>
        <Button className={classes.button} variant="outlined" onClick={props.clicked}><GpsFixedIcon/></Button>
-    </span>
+    </div>
   );
 };
 

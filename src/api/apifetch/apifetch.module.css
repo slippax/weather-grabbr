@@ -12,3 +12,15 @@
   margin: 0 auto;
   display: table;
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .inputBoxes {
+    display: flex;
+  }
+
+  .temps {
+    padding: 0px;
+  }
+  
+}

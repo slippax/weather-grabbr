@@ -1,10 +1,16 @@
 import React from "react";
-import TextField from '@material-ui/core/TextField';
-import classes from './styles/styles.module.css'
+import TextField from "@material-ui/core/TextField";
+import classes from "./styles/styles.module.css";
 const city = (props) => {
   return (
     <span className={classes.city}>
-      <TextField id="outlined-basic" label="City" variant="outlined" onChange={props.changed} />
+      <TextField
+      className={classes.cityStyles}
+        id="outlined-basic"
+        label="City"
+        variant="outlined"
+        onChange={props.changed}
+      />
     </span>
   );
 };
