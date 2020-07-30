@@ -20,7 +20,7 @@ function ApiFetch() {
   const [lat, setLat] = useState(0);
   const [lon, setLon] = useState(0);
   const [url, setUrl] = useState(
-    `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=220b8775efd1ba31288e8e381b672250`
+    `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=220b8775efd1ba31288e8e381b672250`
   );
   const firstUpdate = useRef(true);
   useLayoutEffect(() => {
@@ -47,14 +47,14 @@ function ApiFetch() {
     if (city && country !== "") {
       setUrl(
         //hi
-        `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=220b8775efd1ba31288e8e381b672250`
+        `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=220b8775efd1ba31288e8e381b672250`
       );
     }
   }, [city, country]);
 
   const locationSetter = () => {
     setUrl(
-      `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=220b8775efd1ba31288e8e381b672250`
+      `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=220b8775efd1ba31288e8e381b672250`
     );
   };
   return (
