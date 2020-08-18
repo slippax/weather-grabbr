@@ -27,9 +27,12 @@
   border-radius: 20px;
   font-size: 14px;
   box-shadow: 0 8px 6px -9px black;
-  background: whitesmoke;
+  background: lightsteelblue;
 }
 
+.box:hover {
+  background: lightgrey;
+}
 .boxwrapper {
   padding: 5px;
 }
@@ -56,10 +59,10 @@
 
   .city {
     padding-right: 3px;
-    margin-left: 10px;
+    margin-left: 12px;
   }
   .locationButton {
-    margin-right: 10px;
+    margin-right: 9px;
   }
   .box {
     border: 2px solid lightcyan;

@@ -4,8 +4,9 @@
   font-size: 40px;
   font-weight: 300;
   width: 100%;
-  color: darkslateblue;
+  color: darkgreen;
   margin-bottom: 10px;
+  text-shadow: -1px -1px ghostwhite;
 }
 
 .border {

@@ -13,6 +13,18 @@
   display: table;
 }
 
+.inputBoxes Button, Input {
+background-color: linen;
+}
+
+.inputBoxes Input {
+  background-color: linen;
+  }
+  
+  .inputBoxes Select {
+    background-color: linen;
+  }
+
 @media (min-width: 320px) and (max-width: 480px) {
   
   .inputBoxes {
