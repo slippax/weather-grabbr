@@ -11,8 +11,42 @@
     padding-top: 15px;
   margin: 0 auto;
   display: table;
+  border: 1px solid cornflowerblue;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-bottom: 15px;
+  -webkit-box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
+  -moz-box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
+  box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
+  background:aliceblue;
 }
 
+.valueWrapper:hover {
+  -webkit-box-shadow: 0px 0px 14px 10px rgba(127,125,179,1);
+  -moz-box-shadow: 0px 0px 14px 10px rgba(127,125,179,1);
+  box-shadow: 0px 0px 14px 10px rgba(127,125,179,1);
+}
+.inputBoxes{
+  border: 1px solid cornflowerblue;
+  width: 440px;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  -webkit-box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
+  -moz-box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
+  box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
+  background:aliceblue;
+  padding-top: 15px;
+}
+.inputBoxes:hover{
+  -webkit-box-shadow: 0px 0px 14px 10px rgba(127,125,179,1);
+  -moz-box-shadow: 0px 0px 14px 10px rgba(127,125,179,1);
+  box-shadow: 0px 0px 14px 10px rgba(127,125,179,1);
+}
 .inputBoxes Button, Input {
 background-color: linen;
 }

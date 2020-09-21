@@ -21,17 +21,23 @@
 }
 
 .box {
-  border: 2px solid lightcyan;
+  border: 1px solid cornflowerblue;
   width: 130px;
   height: 130px;
   border-radius: 20px;
   font-size: 14px;
   box-shadow: 0 8px 6px -9px black;
-  background: lightsteelblue;
+  background: azure;
+  -webkit-box-shadow: 0px 1px 3px 3px rgba(127,125,179,1);
+  -moz-box-shadow: 0px 1px 3px 3px rgba(127,125,179,1);
+  box-shadow: 0px 1px 3px 3px rgba(127,125,179,1);
 }
 
 .box:hover {
-  background: lightgrey;
+  background: whitesmoke;
+  -webkit-box-shadow: 0px 1px 8px 5px rgba(127,125,179,1);
+-moz-box-shadow: 0px 1px 8px 5px rgba(127,125,179,1);
+box-shadow: 0px 1px 8px 5px rgba(127,125,179,1);
 }
 .boxwrapper {
   padding: 5px;

@@ -1,27 +1,39 @@
 .text {
   text-align: center;
-  padding-top: 30px;
   font-size: 40px;
   font-weight: 300;
   width: 100%;
-  color: darkgreen;
+  color: darkslateblue;
   margin-bottom: 10px;
-  text-shadow: -1px -1px ghostwhite;
 }
 
 .border {
     width:60%;
-    border-bottom: 1px solid gray;
+    border-bottom: 2px solid gray;
     margin-left: 20%;
 }
 
 .title {
-  width: 100%;
+  width: 440px;
   text-align: center;
+  border: 1px solid cornflowerblue;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding-bottom: 15px;
+  -webkit-box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
+  -moz-box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
+  box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
+  background:aliceblue;
 }
 
+.title:hover{
+  -webkit-box-shadow: 0px 1px 8px 5px rgba(127,125,179,1);
+  -moz-box-shadow: 0px 1px 8px 5px rgba(127,125,179,1);
+  box-shadow: 0px 1px 8px 5px rgba(127,125,179,1);
+}
 .instruction {
   text-align: center;
-  padding-bottom: 5px;
   width: 100%;
 }

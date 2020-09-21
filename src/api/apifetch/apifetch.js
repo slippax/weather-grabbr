@@ -23,6 +23,7 @@ function ApiFetch() {
     `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=220b8775efd1ba31288e8e381b672250`
   );
   const firstUpdate = useRef(true);
+  console.log(firstUpdate);
   useLayoutEffect(() => {
     if (firstUpdate.current) {
       firstUpdate.current = false;
@@ -66,9 +67,9 @@ function ApiFetch() {
           <Button clicked={locationSetter} name={"Get Location"} />
         </div>
       </Slide>
-
-      <div className={classes.valueWrapper}>
       <Fade top spy={url}>
+{weatherData!=="" ? (<div className={classes.valueWrapper}>
+      
         <div className={classes.temps}>
           {weatherData && <Temp temp={weatherData.main.temp - 273.15} />}
           {weatherData && (
@@ -93,8 +94,9 @@ function ApiFetch() {
             />
           )}
         </div>
-        </Fade>
-      </div>
+        
+      </div>) : (<div></div>)}
+      </Fade>
     </div>
   );
 }
