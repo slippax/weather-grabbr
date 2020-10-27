@@ -11,7 +11,6 @@ import Country from "../../components/layout/content/values/country";
 import Button from "../../components/layout/content/values/button";
 import classes from "./apifetch.module.css";
 import Slide from "react-reveal/Slide";
-import Fade from "react-reveal/Flip";
 
 function ApiFetch() {
   const [weatherData, setWeatherData] = useState("");
@@ -67,7 +66,7 @@ function ApiFetch() {
           <Button clicked={locationSetter} name={"Get Location"} />
         </div>
       </Slide>
-      <Fade top spy={url}>
+      <Slide bottom spy={url}>
 {weatherData!=="" ? (<div className={classes.valueWrapper}>
       
         <div className={classes.temps}>
@@ -96,7 +95,7 @@ function ApiFetch() {
         </div>
         
       </div>) : (<div></div>)}
-      </Fade>
+      </Slide>
     </div>
   );
 }
