@@ -11,52 +11,53 @@
     padding-top: 15px;
   margin: 0 auto;
   display: table;
-  border: 1px solid cornflowerblue;
+  border: 1px solid rgba(0, 1, 8, 0.507);
   margin: auto;
   border-radius: 10px;
   margin-bottom: 10px;
   margin-top: 10px;
   padding-bottom: 15px;
-  -webkit-box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
-  -moz-box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
-  box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
-  background:aliceblue;
+  -webkit-box-shadow: 0px 0px 8px 3px rgba(127,125,179,1);
+  -moz-box-shadow: 0px 0px 8px 3px rgba(127,125,179,1);
+  box-shadow: 0px 0px 8px 3px rgba(127,125,179,1);
+  background:rgba(3, 33, 133, 0.171);
+
 }
 
 .valueWrapper:hover {
-  -webkit-box-shadow: 0px 0px 14px 10px rgba(127,125,179,1);
-  -moz-box-shadow: 0px 0px 14px 10px rgba(127,125,179,1);
-  box-shadow: 0px 0px 14px 10px rgba(127,125,179,1);
+  -webkit-box-shadow: 0px 0px 14px 5px rgba(127,125,179,1);
+  -moz-box-shadow: 0px 0px 14px 5px rgba(127,125,179,1);
+  box-shadow: 0px 0px 14px 5px rgba(127,125,179,1);
 }
 .inputBoxes{
-  border: 1px solid cornflowerblue;
-  width: 440px;
+  border: 1px solid rgba(0, 1, 8, 0.507);
+  width: 450px;
   margin: auto;
   border-radius: 10px;
   margin-bottom: 20px;
   margin-top: 20px;
   padding-bottom: 15px;
-  -webkit-box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
-  -moz-box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
-  box-shadow: 0px 0px 8px 9px rgba(127,125,179,1);
-  background:aliceblue;
+  -webkit-box-shadow: 0px 0px 8px 3px rgba(127,125,179,1);
+  -moz-box-shadow: 0px 0px 8px 3px rgba(127,125,179,1);
+  box-shadow: 0px 0px 8px 3px rgba(127,125,179,1);
+  background:rgba(3, 33, 133, 0.171);
   padding-top: 15px;
 }
 .inputBoxes:hover{
-  -webkit-box-shadow: 0px 0px 14px 10px rgba(127,125,179,1);
-  -moz-box-shadow: 0px 0px 14px 10px rgba(127,125,179,1);
-  box-shadow: 0px 0px 14px 10px rgba(127,125,179,1);
+  -webkit-box-shadow: 0px 1px 8px 5px rgba(127,125,179,1);
+  -moz-box-shadow: 0px 1px 8px 5px rgba(127,125,179,1);
+  box-shadow: 0px 0px 8px 5px rgba(127,125,179,1);
 }
 .inputBoxes Button, Input {
-background-color: linen;
+  background: rgba(207, 231, 231, 0.719);
 }
 
 .inputBoxes Input {
-  background-color: linen;
+  background: rgba(207, 231, 231, 0.719);
   }
   
   .inputBoxes Select {
-    background-color: linen;
+    background: rgba(207, 231, 231, 0.719);
   }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -68,5 +69,22 @@ background-color: linen;
   .temps {
     padding: 0px;
   }
-  
+  .inputBoxes{
+    width: 350px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    -webkit-box-shadow: 0px 0px 8px 3px rgba(127,125,179,1);
+    -moz-box-shadow: 0px 0px 8px 3px rgba(127,125,179,1);
+    box-shadow: 0px 0px 8px 3px rgba(127,125,179,1);
+    padding-top: 15px;
+  }
+  .contentWrapper {
+    text-align: center;
+  }
+  .valueWrapper {
+    width: 320px;
+}
 }

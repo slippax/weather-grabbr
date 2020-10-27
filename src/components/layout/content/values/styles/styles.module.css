@@ -3,7 +3,6 @@
 }
 
 .cityStyles {
-  background: whitesmoke;
   border-radius: 5px;
 }
 
@@ -21,20 +20,20 @@
 }
 
 .box {
-  border: 1px solid cornflowerblue;
+  border: 1px solid rgba(0, 1, 8, 0.507);
   width: 130px;
   height: 130px;
   border-radius: 20px;
   font-size: 14px;
   box-shadow: 0 8px 6px -9px black;
-  background: azure;
+  background-color: rgba(179, 229, 243, 0.698);
   -webkit-box-shadow: 0px 1px 3px 3px rgba(127,125,179,1);
   -moz-box-shadow: 0px 1px 3px 3px rgba(127,125,179,1);
   box-shadow: 0px 1px 3px 3px rgba(127,125,179,1);
 }
 
 .box:hover {
-  background: whitesmoke;
+  background: rgba(26, 94, 139, 0.164);
   -webkit-box-shadow: 0px 1px 8px 5px rgba(127,125,179,1);
 -moz-box-shadow: 0px 1px 8px 5px rgba(127,125,179,1);
 box-shadow: 0px 1px 8px 5px rgba(127,125,179,1);
@@ -53,7 +52,7 @@ box-shadow: 0px 1px 8px 5px rgba(127,125,179,1);
 }
 
 .locationButton {
-  background-color: whitesmoke;
+  background-color: rgba(207, 231, 231, 0.719);
   display: inline-flex;
   border-radius: 5px;
 }
@@ -71,13 +70,12 @@ box-shadow: 0px 1px 8px 5px rgba(127,125,179,1);
     margin-right: 9px;
   }
   .box {
-    border: 2px solid lightcyan;
+    border: 2px solid rgba(0, 1, 8, 0.507);
     width: 110px;
     height: 120px;
     border-radius: 20px;
     font-size: 14px;
     box-shadow: 0 8px 6px -9px black;
-    background: whitesmoke;
   }
   .boxwrapper {
     padding: 5px;
